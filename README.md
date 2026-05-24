@@ -68,6 +68,8 @@ No collision changes, no server interaction, no wall penetration.
 
 ## How to install
 
+Client
+
 * Download the ZIP file
 * Unzip / extract it
 * You’ll find 3 `.js` files
@@ -78,21 +80,20 @@ No collision changes, no server interaction, no wall penetration.
 * Restart the game/client
 
 Browser
-
 Use one of these methods:
 
 Option 1: Tampermonkey
 
-Install Tampermonkey
-Create a new script
-Paste the code
-Save and enable it
-Reload Venge.io
+* Install Tampermonkey
+* Create a new script
+* Paste the code
+* Save and enable it
+* Reload Venge.io
 
 Option 2: Console (temporary)
 
-Open browser DevTools (F12)
-Go to Console
-Paste the script and run it
+* Open browser DevTools (F12)
+* Go to Console
+* Paste the script and run it
 
 Note: Large scripts may lag your browser when pasted directly into console.
