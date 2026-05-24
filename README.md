@@ -1,11 +1,20 @@
 # Illegal-Hell
-Modified Hell mod for venge.io, with visual advantages and overridden JS mechanics.
 
-# Venge.io modification
+Modified Hell mod for Venge.io with visual improvements and client-side JS overrides.
 
-Small set of client-side scripts for Venge.io to improve visibility and gameplay feel.
+Set of scripts focused on visibility, responsiveness, and general gameplay feel. Everything runs locally — no server-side changes.
 
-Everything runs locally. No server-side changes.
+---
+
+## Package Info
+
+This mod contains **three JavaScript files**:
+
+* Tree Hider (visual improvement)
+* FOV Unlock
+* Weapon Switch + Reload Fix
+
+Each script runs independently but is designed to work together as one setup.
 
 ---
 
@@ -23,30 +32,30 @@ Note: Trees are only hidden visually. Collision still exists, bullets don’t go
 
 ---
 
-### High/Low FOV Unlock
+### High / Low FOV Unlock
 
-Extends the default FOV limit.
+Extends the default FOV limit beyond in-game restrictions.
 
 * Wider field of view
 * Better awareness
-* More comfortable high-sens gameplay
+* More comfortable gameplay at high sensitivity
 
-Keys:
+Controls:
 
 * `]` increase
 * `[` decrease
 
-ADS behavior may stays stable.
+ADS behavior stays stable.
 
 ---
 
 ### Weapon Switch + Reload Fix
 
-Improves weapon swapping behavior.
+Improves weapon swapping behavior and consistency.
 
 * Faster switching
-* No animation delay
-* Fixes reload issues during fast swaps
+* No delay between swaps
+* Fixes reload interruptions during fast switching
 
 ---
 
@@ -55,33 +64,35 @@ Improves weapon swapping behavior.
 * Client-side only
 * Works after reloads and map changes
 * Uses internal game hooks
-* No server-side modification
+* No server-side modifications
 
 ---
 
 ## Disclaimer
 
-Visual and gameplay feel adjustments only.
+Visual and gameplay feel changes only.
 No collision changes, no server interaction, no wall penetration.
 
 ---
 
-## How to install
+## How to Install
 
-Client
+### Client Version
 
 * Download the ZIP file
-* Unzip / extract it
-* You’ll find 3 `.js` files
-* Copy all of them
-* Go to your Venge client directory in Documents
+* Extract it
+* This mod contains **3 `.js` files**
+* Copy all files
+* Go to your Venge client directory (Documents)
 * Open the `userscript` folder
 * Paste the files there
 * Restart the game/client
 
-Browser
+---
 
-Option 1: Tampermonkey
+### Browser Version
+
+#### Option 1: Tampermonkey
 
 * Install Tampermonkey
 * Create a new script
@@ -89,10 +100,10 @@ Option 1: Tampermonkey
 * Save and enable it
 * Reload Venge.io
 
-Option 2: Console (temporary)
+#### Option 2: Console (temporary)
 
-* Open browser DevTools (F12)
+* Open DevTools (F12)
 * Go to Console
-* Paste the script and run it
+* Paste script and run
 
-Note: Large scripts may lag your browser when pasted directly into console.
+Note: Large scripts may cause lag if pasted directly into console.
