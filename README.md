@@ -45,7 +45,7 @@ Controls:
 * `]` increase
 * `[` decrease
 
-ADS behavior stays stable.
+ADS behavior may stays stable.
 
 ---
 
