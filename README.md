@@ -1,6 +1,6 @@
-# Illegal-Hell
+# JS modifications
 
-Modified Hell mod for Venge.io with visual improvements and client-side JS overrides.
+Modified JavaScripts code for Venge.io with visual improvements and client-side JS overrides.
 
 Set of scripts focused on visibility, responsiveness, and general gameplay feel. Everything runs locally — no server-side changes.
 
