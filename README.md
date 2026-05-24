@@ -80,7 +80,6 @@ Client
 * Restart the game/client
 
 Browser
-Use one of these methods:
 
 Option 1: Tampermonkey
 
