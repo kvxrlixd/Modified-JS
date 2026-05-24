@@ -1,7 +1,7 @@
 # Illegal-Hell
 Modified Hell mod for venge.io, with visual advantages and overridden JS mechanics.
 
-# Venge.io Client Enhancements
+# Venge.io modification
 
 Small set of client-side scripts for Venge.io to improve visibility and gameplay feel.
 
@@ -11,7 +11,7 @@ Everything runs locally. No server-side changes.
 
 ## Features
 
-### Tree Hider (Visual Only)
+### Palm Tree Hider (Visual Only)
 
 Removes palm trees on Sierra map for cleaner sightlines.
 
@@ -23,7 +23,7 @@ Note: Trees are only hidden visually. Collision still exists, bullets don’t go
 
 ---
 
-### FOV Unlock
+### High/Low FOV Unlock
 
 Extends the default FOV limit.
 
@@ -36,7 +36,7 @@ Keys:
 * `]` increase
 * `[` decrease
 
-ADS behavior stays stable.
+ADS behavior may stays stable.
 
 ---
 
