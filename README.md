@@ -62,7 +62,6 @@ Improves weapon swapping behavior and consistency.
 ## Notes
 
 * Client-side only
-* Works after reloads and map changes
 * Uses internal game hooks
 * No server-side modifications
 
