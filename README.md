@@ -10,18 +10,18 @@ Set of scripts focused on visibility, responsiveness, and general gameplay feel.
 
 This mod contains the following JavaScript files:
 
-- `treehider.js`
-- `fovunlock.js`
-- `switchreloadfix.js`
+- `FOV.js`
+- `Mechanics.js`
+- `Palm Trees.js`
 - `charfix.js`
 
 Each script runs independently but is designed to work together as one setup.
 
 ---
 
-## Features
+# Features
 
-### Palm Tree Hider (`treehider.js`)
+## Palm Tree Hider (`Palm Trees.js`)
 
 Removes palm trees on Sierra map for cleaner sightlines.
 
@@ -29,11 +29,11 @@ Removes palm trees on Sierra map for cleaner sightlines.
 - Less visual clutter
 - Easier enemy tracking
 
-> Note: Trees are only hidden visually. Collision still exists, bullets don’t go through, and it’s not x-ray.
+> Note: Trees are only hidden visually. Collision still exists, bullets do not go through, and this is not x-ray.
 
 ---
 
-### High / Low FOV Unlock (`fovunlock.js`)
+## High / Low FOV Unlock (`FOV.js`)
 
 Extends the default FOV limit beyond in-game restrictions.
 
@@ -41,7 +41,7 @@ Extends the default FOV limit beyond in-game restrictions.
 - Better awareness
 - More comfortable gameplay at high sensitivity
 
-#### Controls
+### Controls
 
 - `]` → Increase FOV
 - `[` → Decrease FOV
@@ -50,7 +50,7 @@ ADS behavior may stay stable.
 
 ---
 
-### Weapon Switch + Reload Fix (`switchreloadfix.js`)
+## Weapon Switch + Reload Fix (`Mechanics.js`)
 
 Improves weapon swapping behavior and consistency.
 
@@ -60,11 +60,11 @@ Improves weapon swapping behavior and consistency.
 
 ---
 
-### Character Texture Fix (`charfix.js`)
+## Character Texture Fix (`charfix.js`)
 
 Fixes the black texture issue affecting the Shin character.
 
-## Important
+### Important
 
 **Do NOT delete `charfix.js`.**
 
@@ -76,7 +76,7 @@ This file is required for proper rendering of Shin skins in-game.
 
 ---
 
-## Notes
+# Notes
 
 - Client-side only
 - Uses internal game hooks
@@ -84,11 +84,13 @@ This file is required for proper rendering of Shin skins in-game.
 
 ---
 
-## Disclaimer
+# Disclaimer
 
 Visual and gameplay feel changes only.
 
-No collision changes, no server interaction, and no wall penetration.
+- No collision changes
+- No server interaction
+- No wall penetration
 
 ---
 
@@ -108,7 +110,7 @@ No collision changes, no server interaction, and no wall penetration.
 
 ## Browser Version
 
-### Option 1: Tampermonkey
+### Option 1 — Tampermonkey
 
 1. Install Tampermonkey
 2. Create a new script
@@ -118,7 +120,7 @@ No collision changes, no server interaction, and no wall penetration.
 
 ---
 
-### Option 2: Console (Temporary)
+### Option 2 — Console (Temporary)
 
 1. Open DevTools (`F12`)
 2. Go to the **Console**
