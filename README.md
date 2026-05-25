@@ -67,6 +67,20 @@ Improves weapon swapping behavior and consistency.
 
 ---
 
+### Character Texture Fix (charfix.js)
+
+Fixes the black texture issue affecting the Shin character.
+
+# Important
+
+Do NOT delete charfix.js.
+
+This file is required for proper rendering of Shin skins in-game.
+
+* Fixes broken/black Shin textures
+* Makes all Shin skins render correctly
+* Keeps Shin visuals consistent with other heroes
+
 ## Disclaimer
 
 Visual and gameplay feel changes only.
